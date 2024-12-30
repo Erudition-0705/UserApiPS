@@ -1,0 +1,16 @@
+<div>
+    <button (click)="fetchSortedUsers(true)">Sort by Age (Ascending)</button>
+    <button (click)="fetchSortedUsers(false)">Sort by Age (Descending)</button>
+  </div>
+  
+  <div *ngIf="isLoading">Loading...</div>
+  <div *ngIf="!isLoading && users.length">
+    <ul>
+      <li *ngFor="let user of users">
+        {{ user.firstName }} {{ user.lastName }} (Age: {{ user.age }})
+        <button (click)="viewDetails(user.id)">View Details</button>
+      </li>
+    </ul>
+  </div>
+  <div *ngIf="!isLoading && !users.length">No users found.</div>
+  

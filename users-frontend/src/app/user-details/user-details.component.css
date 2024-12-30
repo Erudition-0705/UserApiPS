@@ -1,0 +1,55 @@
+/* Center the content */
+.user-details-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem; /* Add space from top */
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Image container styling */
+  .image-container {
+    flex: 0 0 auto;
+    margin-right: 1rem; /* Add space between image and separator */
+  }
+  
+  .image-container img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%; /* Makes the image circular */
+    border: 2px solid #ddd; /* Add a subtle border */
+  }
+  
+  /* Separator styling */
+  .separator {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 1rem;
+    color: #888; /* Light gray for the pipe */
+  }
+  
+  /* User details styling */
+  .details-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-info {
+    line-height: 1.6; /* Better line spacing */
+  }
+  
+  .user-info h2 {
+    margin: 0;
+    color: #333; /* Darker text for the name */
+  }
+  
+  .user-info p {
+    margin: 0.2rem 0;
+    color: #555; /* Slightly lighter text for details */
+  }
+  
+  .user-info p strong {
+    color: #000; /* Bold label text */
+  }
+  

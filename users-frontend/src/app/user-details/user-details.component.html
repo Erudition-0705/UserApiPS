@@ -1,0 +1,18 @@
+<div *ngIf="isLoading">Loading user details...</div>
+<div *ngIf="!isLoading && user">
+    <div class="user-details-container">
+        <div class="image-container">
+          <img [src]="user.image" alt="{{ user.firstName }}" />
+        </div>
+        <div class="details-container">
+          <div class="separator">|</div>
+          <div class="user-info">
+            <h2>{{ user.firstName }} {{ user.lastName }}</h2>
+            <p><strong>Role:</strong> {{ user.role }}</p>
+            <p><strong>Email:</strong> {{ user.email }}</p>
+            <p><strong>Age:</strong> {{ user.age }}</p>
+          </div>
+        </div>
+      </div>      
+</div>
+

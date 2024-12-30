@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+/* Apply a global font and background */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Remove default padding and margin for all elements */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
