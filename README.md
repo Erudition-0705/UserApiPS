@@ -1,2 +1,2 @@
 # UserApiPS
-Publics Sapient User API
+Publicis Sapient User API
