@@ -51,6 +51,44 @@ This is a Spring Boot-based REST API for managing user data. It supports loading
 
 
 
+# Frontend Application: User Management System
+
+This is the frontend application for the **User Management System**, built with Angular. It provides a user-friendly interface to interact with the backend API for managing user data.
+
+---
+
+---
+
+## Features
+- Display a list of users with sorting functionality.
+- View detailed information for individual users.
+- Responsive and dynamic UI using Angular Material.
+- Modular architecture for scalable development.
+- Integration with a RESTful backend API.
+
+---
+
+## Technologies Used
+- **Framework:** Angular 16+
+- **Language:** TypeScript
+- **Styling:** CSS, Angular Material
+- **HTTP Client:** Angular HTTPClient
+- **Testing:** Jasmine, Karma
+- **Build Tool:** Angular CLI
+
+---
+
+## Setup and Installation
+
+1. git clone https://github.com/Erudition-0705/UserApiPS
+2. cd UserApiPS/users-frontend
+3. npm install--for installing dependencies
+4. ng serve---to start the application
+5. ng test --code-coverage
+
+
+
+
 
 
 
